@@ -1,0 +1,28 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    position: relative;
+    width: 90vw;
+    margin: 1% auto 1% auto;
+    box-sizing: border-box;
+    padding: 1% 1% 1% 1%;
+    background-color: black;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+}
+p+p{
+    width: 60%;
+    margin-top: 10%;
+}
