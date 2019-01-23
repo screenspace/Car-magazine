@@ -1,4 +1,6 @@
-
+html{
+    font-size: 10px;
+}
 body{
     box-sizing: border-box;
     margin: 0;
@@ -9,20 +11,68 @@ main{
     width: 90vw;
     margin: 1% auto 1% auto;
     box-sizing: border-box;
-    padding: 1% 1% 1% 1%;
-    background-color: black;
+    background-color: rgb(71, 71, 71);
     box-sizing: border-box;
+    border-radius: 20px;
+    border: 2px solid gray;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.671), 0 0 5px rgba(0, 0, 0, 0.5);
+
+}
+img{
+    display: block;
+    float: left;
+    margin-left: 5%;
+    margin-right: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.199);
+    border-radius: 5px;
 }
 h2{
     text-align: center;
+    margin: 20px auto 10px auto;
+}
+footer{
+    height: 100px;
+    background-color: rgb(179, 179, 179);
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
 }
 p{
     color: white;
     text-align: justify;
     width: 90%;
     margin: auto;
+    line-height: 23px;
+    font-size: 1.5rem;
+    
 }
-p+p{
+header{
+    background-image: url(img/car-pattern.jpg);
+    background-size: 300px;
+    padding: 1px;
+    background-clip: content-box;
+    margin-top:0;
+    box-sizing: content-box;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.199);
+    border-bottom: none;
+    color: black;
+    font-size: 34px;
+    
+}
+#top-article{
+    color: black;
+    font-size: 2rem;
+    background-color: aqua;
+}
+article>header+p{
     width: 60%;
     margin-top: 10%;
+ 
+}
+
+h3{
+    font-size: 2.5rem;
+    margin: 20px auto 5px 5%;
 }
